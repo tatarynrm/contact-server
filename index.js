@@ -2,7 +2,7 @@ require('dotenv').config()
 const { Telegraf, Markup, Scenes, session } = require('telegraf');
 const { addCommentScene, searchNumberScene, writeDeveloperScene } = require('./scenes'); // Імпортуємо сцени
 
-const { faker } = require('@faker-js/faker');
+
 
 const { addUser, updateUser } = require('./controller/user.controller')
 const pool = require('./db/db')
